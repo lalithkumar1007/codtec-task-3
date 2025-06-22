@@ -1,0 +1,78 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lalith's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lalith</h1>
+    <p>Frontend Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate developer who loves building web experiences using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Real-Time Chat App</h3>
+      <p>A live chat application using React and WebSockets.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This very portfolio website built with HTML & CSS.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: lalith@example.com</p>
+  </footer>
+</body>
+</html>
+
+
+
+css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about, .projects {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
